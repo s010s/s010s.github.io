@@ -28,7 +28,6 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
       chunkModules: false
     }) + '\n\n')
 
-
     gulp.task('delete', ['main'], function (cb) {
       del([
         '../index.html',

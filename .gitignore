@@ -1,6 +1,11 @@
 .DS_Store
+<<<<<<< HEAD
 node_modules/
 dist/
+=======
+./s010s/node_modules/
+./s010s/dist/
+>>>>>>> b86d86494ed239ec94e3d08d810c2809197556c6
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
