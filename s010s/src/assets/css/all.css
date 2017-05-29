@@ -1,0 +1,51 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+li {
+  list-style-type: none;
+}
+
+.all_center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+input:focus,
+textarea:focus,
+keygen:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+  visibility: hidden;
+  font-size: 0;
+  content: " ";
+  height: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
